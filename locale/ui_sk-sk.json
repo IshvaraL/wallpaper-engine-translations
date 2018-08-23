@@ -37,8 +37,8 @@
 	"ui_browse_details_rate" : "Hodnotiť",
 	"ui_browse_details_btn_workshop" : "Workshop",
 	"ui_browse_details_btn_unsubscribe" : "Zrušiť odber",
-	"ui_browse_details_btn_download" : "Stiahnuť",
-	"ui_browse_details_btn_remove_from_history" : "Zmazať z histórie",
+	"ui_browse_details_btn_download" : "Odoberať",
+	"ui_browse_details_btn_remove_from_history" : "Zmazať",
 	"ui_browse_details_properties" : "Vlastnosti",
 	"ui_browse_details_properties_reset" : "Reštart",
 	"ui_browse_details_properties_nothing_imported" : "Nič nebolo importované",
@@ -88,10 +88,10 @@
 	"ui_browse_modal_proceed" : "Pokračovať",
 	
 	"ui_browse_properties_scheme_color" : "Farba schémy",
-	"ui_browse_properties_playback_rate" : "<span class='fa fa-play propertyIcon'></span>Rýchlosť prehrávania",
-	"ui_browse_properties_volume" : "<span class='fa fa-volume-up propertyIcon'></span>Hlasitosť",
-	"ui_browse_properties_volume_disabled" : "<span class='fa fa-volume-up propertyIcon dangerText'></span>Zvuky vypnuté v nastaveniach",
-	"ui_browse_properties_audio_recording" : "<span class='fa fa-microphone propertyIcon'></span>Nahrávanie zvuku",
+	"ui_browse_properties_playback_rate" : "<span class='fas fa-play propertyIcon'></span>Rýchlosť prehrávania",
+	"ui_browse_properties_volume" : "<span class='fas fa-volume-up propertyIcon'></span>Hlasitosť",
+	"ui_browse_properties_volume_disabled" : "<span class='fas fa-volume-up propertyIcon dangerText'></span>Zvuky vypnuté v nastaveniach",
+	"ui_browse_properties_audio_recording" : "<span class='fas fa-microphone propertyIcon'></span>Nahrávanie zvuku",
 	
 	"ui_browse_playlist_header" : "Playlist",
 	"ui_browse_playlist_modal_open_header" : "Otvoriť playlist",
@@ -203,7 +203,7 @@
 	"ui_settings_advanced_reset_config_button" : "RESET",
 	"ui_settings_advanced_reset_config_modal_header" : "Potvrdiť Reset",
 	"ui_settings_advanced_reset_config_modal_body" : "Všetky vaše nastavenia budú zresetované a aplikácia potrebuje reštart.",
-	"ui_settings_video_audio_label" : "Video audio výstup:",
+	"ui_settings_video_audio_label" : "Audio výstup:",
 	
 	"ui_settings_copyright" : "Všetky práva vyhradené.",
 	"ui_settings_thirdparty" : "Oznámenia tretej strany",
@@ -259,7 +259,6 @@
 	"ui_editor_filemenu_show_in_workshop" : "Ukázať vo Workshope",
 	"ui_editor_filemenu_prepare_for_publishing" : "Príprava na publikovanie",
 
-	"ui_editor_treeview_header_scene" : "Graf scény",
 	"ui_editor_treeview_header_files" : "Importované súbory",
 
 	"ui_editor_camera_add_path" : "Pridať cestu",
@@ -269,14 +268,11 @@
 	"ui_editor_gizmo_scale" : "Veľkosť",
 
 	"ui_editor_welcome_modal_new_scene_wallpaper" : "Nová scéna pozadia",
-	"ui_editor_welcome_modal_new_scene3d_wallpaper" : "Nová 3D scéna pozadia",
-	"ui_editor_welcome_modal_new_scene2d_wallpaper" : "Nová 2D scéna pozadia",
 	"ui_editor_welcome_modal_new_video_wallpaper" : "Nové videové pozadie",
 	"ui_editor_welcome_modal_new_web_wallpaper" : "Nové webové pozadie",
 	"ui_editor_welcome_modal_new_application_wallpaper" : "Nové aplikáciové pozadie",
 	"ui_editor_welcome_modal_edit_recent_wallpaper" : "Upraviť nedávne pozadie:",
 	"ui_editor_welcome_modal_edit_recent_no_wallpapers" : "Žiadne nedávne pozadia",
-	"ui_editor_welcome_modal_tutorial" : "Tutorial: Začíname",
 	"ui_editor_welcome_modal_show_more" : "Ukázať viac...",
 	"ui_editor_welcome_modal_project_name" : "Meno projektu",
 	"ui_editor_welcome_modal_video_file" : "Video súbor",
@@ -308,12 +304,10 @@
 	"ui_editor_workshop_options_description" : "Popis",
 	"ui_editor_workshop_options_tags" : "Označenia",
 	"ui_editor_workshop_options_genre" : "Žáner",
-	"ui_editor_workshop_genre_empty" : "< Vyberte žáner >",
 	"ui_editor_workshop_options_scheme_color" : "Farba schémy",
 	"ui_editor_workshop_options_visibility" : "Viditeľnosť",
-	"ui_editor_workshop_options_monetization" : "Speňažnenie (Kurátor Workshop)",
-	"ui_editor_workshop_options_monetization_hint_on" : " (Za pozadie bude hlasované a bude predané.)",
-	"ui_editor_workshop_options_monetization_hint_off" : " (Pozadie bude ihneď k dispozícii, zdarma.)",
+	"ui_editor_workshop_options_monetization" : "Speňažnenie (VYPNE SŤAHOVANIE)",
+	"ui_editor_workshop_options_monetization_hint_on" : " (Pozadie sa bude predávať IBA v obchode.)",
 	"ui_editor_workshop_options_preview_image" : "Náhľad obrázku",
 	"ui_editor_workshop_options_missing" : "Chýba",
 	"ui_editor_workshop_options_preview_take_snapshot" : "Spraviť snapshot",
@@ -396,11 +390,11 @@
 
 	"ui_browse_filter_resolution" : "Rozlíšenie",
 
-	"ui_browse_properties_alignment" : "<span class='fa fa-image propertyIcon'></span>Zarovnanie",
+	"ui_browse_properties_alignment" : "<span class='fas fa-image propertyIcon'></span>Zarovnanie",
 	"ui_browse_properties_alignment_cover" : "Prekryť",
 	"ui_browse_properties_alignment_center" : "Doprostred",
 	"ui_browse_properties_alignment_stretch" : "Natiahnuť",
-	"ui_browse_properties_alignment_position" : "<span class='fa fa-arrows-h propertyIcon'></span>Pozícia",
+	"ui_browse_properties_alignment_position" : "<span class='fas fa-arrows-alt-h propertyIcon'></span>Pozícia",
 
 	"ui_settings_video_hardware_acceleration_label" : "Video hardware akcelerácia",
 	"ui_settings_process_priority" : "Priorita procesu",
@@ -659,14 +653,10 @@
 	"ui_editor_preset_variant_small" : "Malé",
 	"ui_editor_preset_variant_large" : "Veľké",
 
-	"ui_editor_preset_refractive_rain_title" : "Refrakčný dážď",
-	"ui_editor_preset_refractive_rain_description" : "Pridá čiastočky modrého dážďa ktoré tiež refraktujú obrázok pozadia.",
 	"ui_editor_preset_ember_title" : "Ember",
 	"ui_editor_preset_ember_description" : "Vstúpajúce ember čiastočky.",
 	"ui_editor_preset_spark_title" : "Iskra",
 	"ui_editor_preset_spark_description" : "Zriedkavá iskra.",
-	"ui_editor_preset_fireflies_particles_title" : "Svetlušky",
-	"ui_editor_preset_fireflies_particles_description" : "Pomaly pohybujúce sa svetlušky ktoré obchádzajú kurzor.",
 	"ui_editor_preset_fireworks_title" : "Ohňostroje",
 	"ui_editor_preset_fireworks_description" : "Vysielač rôzneho ohňostroja.",
 
@@ -825,12 +815,11 @@
 	"ui_browse_header_option_settings" : "Možnosti",
 	"ui_browse_header_option_monitors" : "Monitory",
 	"ui_browse_header_option_editor" : "Editor",
-	"ui_browse_advertise_workshop" : "Kliknite sem pre prehliadavanie Workshopu pre nové pozadia!",
+	"ui_browse_advertise_workshop" : "Kliknite sem pre prehliadanie Workshopu detailne!",
 
 	"ui_browse_monitors_profile" : "Profil",
 
 	"ui_browse_monitors_split" : "Rozdeliť",
-	"ui_browse_monitors_remove_split" : "Odstrániť rozdelenie",
 	"ui_browse_monitors_split_monitor" : "Rozdeliť monitor: {{name}}",
 	"ui_browse_monitors_group" : "Zoskupiť",
 	"ui_browse_monitors_ungroup" : "Rozdeliť",
@@ -840,7 +829,7 @@
 	"ui_browse_monitors_posititon" : "Pozícia",
 
 	"ui_browse_modal_advertise_workshop_header" : "In-App Workshop Prehliadač",
-	"ui_browse_modal_advertise_workshop_body" : "Použite nastavenia filtrov pre ľahšie hladanie na Steame. Dvakrát kliknite na žáner pre schovanie.<br/><br/>Kliknite na <b>Schválené</b> <span class='fa fa-trophy browseWallpaperApproved'></span> na prehliadanie ručne vybraných pozadí.<br/><br/>Prehliadajte 'najpopulárnejší' alebo 'najlepšie hodnotený' obsah ak hľadáte vysoko-kvalitné príspevky.",
+	"ui_browse_modal_advertise_workshop_body" : "Použite nastavenia filtrov pre ľahšie hladanie na Steame.<br/><br/>Kliknite na <b>Schválené</b> <span class='fas fa-trophy browseWallpaperApproved'></span> na prehliadanie ručne vybraných pozadí. Prehliadajte 'najpopulárnejší' alebo 'najlepšie hodnotený' obsah ak hľadáte vysoko-kvalitné príspevky.",
 	
 	"ui_browse_details_properties_save" : "Uložiť",
 	"ui_browse_details_properties_load" : "Načítať",
@@ -862,8 +851,6 @@
 	"ui_browse_context_menu_view" : "Zobraziť",
 	"ui_browse_context_menu_icon_medium" : "Stredné ikony",
 	"ui_browse_context_menu_icon_large" : "Veľké ikony",
-	"ui_browse_context_menu_swap_wallpaper" : "Vymeniť pozadie",
-	"ui_browse_context_menu_replace_wallpaper" : "Zameniť pozadie",
 	
 	"ui_settings_playback_battery" : "Laptop na baterke:",
 	
@@ -879,7 +866,6 @@
 	"ui_browse_monitors_auto_split" : "Automatiké rozdelenie NV Surround / Eyefinity",
 	"ui_browse_monitors_auto_split_error_header" : "Automatické rozdelenie zlyhao",
 
-	"ui_browse_monitors_add_group" : "Pridať skupinu",
 	"ui_browse_monitors_remove_group" : "Odstrániť skupinu",
 
 	"ui_browse_monitors_copy_to" : "Kopírovať do",
@@ -990,7 +976,7 @@
 	"ui_browse_modal_safe_mode_header" : "Bezpečný štart",
 	"ui_browse_modal_safe_mode_body" : "Vyzerá to, že program sa nevypol správne, posledné pozadianeboli ešte načítané aby sa predišlo opakovaniu tejto chyby.<br/><br/>Stlačte OK aby ste ich obnovili teraz, alebo zrušit aby ste ich najprv zmenili.",
 	
-	"ui_browse_use_safe_mode" : "Použiť bezpečný štart",
+		"ui_browse_use_safe_mode" : "Použiť bezpečný štart",
 	
 	"ui_browse_context_menu_play_in_window" : "Prehrať v okne",
 	"ui_browse_context_menu_report" : "Nahlásiť",
@@ -1002,12 +988,10 @@
 	"ui_browse_report_modal_category_genre_description" : "Nahlasujete toto pozadie za používanie nesprávneho žánru. Prosím premyslite si, ktorý žáner sedí k tomuto pozadiu vybraním toho čo môžete 'vidieť' nie toho čo 'viete' o tomto pozadí osobne.",
 	"ui_browse_report_modal_genre_current" : "Aktuálny žáner",
 	"ui_browse_report_modal_genre_label" : "Navrhnúť nový žáner",
-	"ui_browse_report_modal_category_rating" : "Nesprávne hodnotenie obsahu",
+	"ui_browse_report_modal_category_rating" : "Nahota alebo násilie",
 	"ui_browse_report_modal_category_rating_description" : "Nahlasujete toto pozadie za nesprávne hodnotenie obsahu. Prosím použite túto možnosť iba ak by mal obsah pozadia byť označený 'diskutabilný' alebo 'dospelý' a naväzujte na tabuľku nižšie. Ak toto pozadie nepasuje do tejto tabuľky, najskôr vyberte príslušnú možnosť nahlásenia.",
 	"ui_browse_report_modal_rating_current" : "Aktuálne hodnotenie",
 	"ui_browse_report_modal_rating_label" : "Navrhnúť nové hodnotenie",
-	"ui_browse_report_modal_category_violation" : "Porušuje pravidlá o nahote/násilí",
-	"ui_browse_report_modal_category_violation_description" : "Nahlasujete toto pozadie za porušovanie pravidiel za povolené hodnotenie obsahu. Prosím naväzujte na túto tabuľku a nahláste ho s touto možnosťou iba ak by malo byť 'zabanované'. Ak pasuje do inakšieho hodnotenia, najskôr vyberte príslušnú možnosť nahlásenia.",
 	"ui_browse_report_modal_category_copyright" : "Porušuje copyright",
 	"ui_browse_report_modal_category_copyright_description" : "Prosím použite Valve DMCA formulár pre predloženie porušenia copyrightu, toto uistí že je to riešené správnym právnym spôsobom.",
 	"ui_browse_report_modal_copyright_dispute" : "Podať DMCA Dispute",
@@ -1023,7 +1007,7 @@
 
 	"ui_rating_table_suitable_for_everyone" : "Vhodné pre všetkých",
 	"ui_rating_table_partial_nudity_suggestive" : "Čiastočná nahota / sugestívne",
-	"ui_rating_table_nudity_explicit" : "Nahota / nevhodné",
+	"ui_rating_table_nudity_explicit" : "Nahota",
 	"ui_rating_table_violence_mild_blood" : "Násilie / mierna krv",
 	"ui_rating_table_excessive_gore" : "Nadmerná krv",
 	"ui_rating_table_header_photographic" : "Fotografické / reálny život",
@@ -1031,13 +1015,13 @@
 	
 	"ui_settings_use_safe_mode" : "Použiť bezpečný štart:",
 	
-	"ui_editor_workshop_options_rating" : "Hodnotenie",
+	"ui_editor_workshop_options_rating" : "Vekové hodnotenie",
 	"ui_editor_workshop_options_rating_change" : "Zmeniť",
 	"ui_editor_workshop_modal_rating_header" : "Vyberte hodnotenie",
-	"ui_editor_workshop_modal_rating_body" : "Prosím naväzujte na túto tabuľku pre výber vhodného hodnotenia obsahu. ak máte pochybnosti, vyberte obmedzenejšie hodnotenie. Odosielanie nelegálneho obsahu alebo nízke hodnotenie vášho príspevku môže zabanovať váš príspevok a flagnúť váš účet. Majte na pamäti že nemusíte predložiť vaše pozadia aby ste ich mohli používať.",
+	"ui_editor_workshop_modal_rating_body" : "Ukážkový obrázok musí byť vhodný pre všetkých. Prosím referujte k tejto tabuľke pre vybratie vhodného hodnotenia obsahu. Ak máte pochybnosti, vyberte si viac obmedzujúce hodnotenie. Predloženie ilegálneho obsahu alebo hodnotenie vášho obsahu príliš nízko môže spôsobiť zabanovanie vášho príspevku. Majte na mysli že nemusíte predložiť pozadia ktoré chcete používať sami.",
 	"ui_editor_workshop_modal_rating_current" : "Aktuálne hodnotenie:",
 	
-	"ui_workshop_workshop_tags_rating" : "Hodnotenie",
+	"ui_workshop_workshop_tags_rating" : "Vekové hodnotenie",
 	"ui_workshop_workshop_tags_rating_not_set" : "< Nie je zadané >",
 	
 	"ui_workshop_tags_rating_everyone" : "Každý",
@@ -1046,5 +1030,223 @@
 	"ui_workshop_tags_rating_ban" : "BAN",
 	"ui_workshop_tags_visibility_public" : "Verejný",
 	"ui_workshop_tags_visibility_friends_only" : "Iba priatelia",
-	"ui_workshop_tags_visibility_private" : "Súkromný"
+	"ui_workshop_tags_visibility_private" : "Súkromný",
+	
+	"ui_browse_filter_results_count" : "({{filtered}} z {{unfiltered}})",
+	
+	"ui_browse_details_btn_report" : "Nahlásiť",
+	
+	"ui_browse_footer_btn_create_wallpaper" : "Vytvoriť pozadie",
+	
+	"ui_browse_age_gate_modal_header" : "Overenie veku",
+	"ui_browse_age_gate_modal_body" : "Pre pokračovanie zadajte svoj dátum narodenia:",
+	"ui_browse_age_gate_modal_sub" : "Tieto dáta sú len pre overovacie dôvody a nebudú uložené, nahrané alebo zdieľané.",
+	"ui_browse_age_gate_modal_day" : "Deň",
+	"ui_browse_age_gate_modal_month" : "Mesiac",
+	"ui_browse_age_gate_modal_year" : "Rok",
+	
+	"ui_rating_table_hardcore_sexual_acts" : "Sexuálne akty",
+	
+	"ui_editor_filemenu_apply_wallpaper" : "Aplikovať pozadie",
+
+	"ui_workshop_tags_girls" : "Dievčatá",
+	"ui_workshop_tags_guys" : "Chlapci",
+	"ui_workshop_tags_sports" : "Športy",
+
+	"ui_browse_filter_results_filtered" : "(Filtrované)",
+	
+	"ui_browse_query_sort_my_favorites" : "Moje obľúbené",
+	"ui_browse_query_sort_voted_up" : "Hlasované hore",
+	
+	"ui_browse_report_modal_category_other" : "Ostatné",
+	"ui_browse_report_modal_category_other_description" : "Prosím vyberte si vhodnú kategóriu pred posielaním nahlásenia! Keď to nikde nezapadá, použite túto kategóriu.",
+	
+	"ui_browse_download_header" : "Steam stiahnutie",
+	
+	"ui_settings_disable_slideshow" : "Odstrániť system wallpaper fade:",
+	
+	"ui_editor_filemenu_import_sound" : "Importovať zvuk",
+	
+	"ui_editor_welcome_modal_create_wallpaper" : "Vytvoriť pozadie",
+	"ui_editor_welcome_modal_drop_background_file" : "Pustite pozadie sem",
+	"ui_editor_welcome_modal_supported_file_types" : "Podporované typy súboru:",
+	"ui_editor_welcome_modal_use_a_template" : "Použite šablónu",
+	
+	"ui_editor_welcome_modal_new_template_wallpaper" : "Nové pozadie zo šablóny",
+	
+	"ui_editor_welcome_modal_file" : "Súbor",
+	
+	"ui_editor_importer_please_wait" : "Prosím počkajte",
+	"ui_editor_importer_compiling_assets_for" : "Kompilujem assety pre",
+	"ui_editor_importer_compiling_file" : "Kompilovanie súboru",
+	
+	"ui_editor_effects_modal_sound_name" : "Zvuk",
+	"ui_editor_effects_modal_sound_description" : "Pridajte slučkovaciu hudbu alebo náhodné okolité zvuky.",
+	
+	"ui_editor_properties_count" : "Počet",
+	"ui_editor_properties_effects_reset" : "Reset",
+	"ui_editor_properties_lifetime" : "Životnosť",
+	"ui_editor_properties_loop" : "Slučka",
+	"ui_editor_properties_maxtime" : "Max čas",
+	"ui_editor_properties_mintime" : "Min čas",
+	"ui_editor_properties_noise_scale" : "Škála hluku",
+	"ui_editor_properties_opacity" : "Nepriehľadnosť",
+	"ui_editor_properties_particle_instance" : "Časticová inštancia",
+	"ui_editor_properties_playback" : "Playback",
+	"ui_editor_properties_mute_in_editor" : "Stíšiť v editore",
+	"ui_editor_properties_random" : "Náhodný",
+	"ui_editor_properties_sound" : "Zvuk",
+	"ui_editor_properties_volume" : "Hlasitosť",
+
+	"ui_browse_advertise_explore" : "Kliknite sem pre nájdenie nových pozadí z Workshopu!",
+	
+	"ui_browse_list_source_explore" : "Objavujte",
+	
+	"ui_settings_ui_hardware_acceleration" : "UI hardware akcelerácia:",
+	
+	"ui_editor_properties_audio_amount" : "Množstvo zvuku",
+	"ui_editor_properties_audio_bounds" : "Hranice zvuku",
+	"ui_editor_properties_audio_exponent" : "Exponent zvuku",
+	"ui_editor_properties_audio_frequency" : "Frekvencia zvuku",
+	"ui_editor_properties_audio_response" : "Odozva zvuku",
+	"ui_editor_properties_none" : "Žiadny",
+	
+	"ui_editor_particle_element_frequency_end" : "Koniec frekvencie",
+	"ui_editor_particle_element_frequency_start" : "Štart frekvencie",
+	
+	"ui_editor_particle_element_audio_response" : "Odozva zvuku",
+
+	"ui_browse_filter_all" : "Všetko",
+	"ui_browse_filter_none" : "Žiadny",
+	"ui_browse_filter_suggestions" : "Návrhy",
+	
+	"ui_browse_monitors_layout_clone_wallpaper" : "Klonovať jedno pozadie",
+	
+	"ui_browse_monitors_add_stretch_group" : "Pridať rozťahovaciu skupinu",
+	"ui_browse_monitors_add_clone_group" : "Pridať klonovaciu skupinu",
+	"ui_browse_monitors_remove_from_group" : "Odstrániť zo skupiny",
+	
+	"ui_browse_monitors_stretch" : "Natiahnuť",
+	"ui_browse_monitors_clone" : "Klonovať",
+	
+	"ui_settings_plugins" : "Pluginy",
+	
+	"ui_editor_filemenu_undo" : "Späť",
+	"ui_editor_filemenu_redo" : "Znova",
+	
+	"ui_editor_no_animation_modal_header" : "Pozadie nie je animované",
+	"ui_editor_no_animation_modal_body" : "Vyzerá to že sa snažíte nahrať scénu pozadia bez animácie. <b>Toto nie je odporúčané.</b><br/><br/>Wallpaper Engine je optimalizovaný pre animované pozadia, takže ked chcete použiť nepohyblivé pozadie, je vhodné použiť váš operačný systém v tomto prípade.<br/><br/>Chcete aj tak pokračovať?",
+
+	"ui_editor_context_menu_center" : "Centrovať",
+	"ui_editor_context_menu_rotate_clockwise" : "Otočiť SHR",
+	"ui_editor_context_menu_rotate_counterclockwise" : "Otočiť PSHR",
+	"ui_editor_context_menu_copy_transforms" : "Kopírovať pretvorenia",
+	"ui_editor_context_menu_paste_transforms" : "Prilepiť pretvorenia",
+	"ui_editor_context_menu_duplicate" : "Duplikovať",
+
+	"ui_editor_effect_xray_title" : "X-Ray",
+	"ui_editor_effect_xray_description" : "Zmiešava medzi dvoma obrázkami na základe pozície kurzoru.",
+	
+	"ui_editor_properties_reset" : "Reset",
+
+	"ui_browse_clear_filters" : "Vyčistiť filtre",
+	
+	"ui_browse_explore_home" : "Domov",
+	"ui_browse_explore_favorites" : "Obľúbené",
+	"ui_browse_explore_disliked" : "Dislikované",
+	"ui_browse_explore_see_more" : "vidieť viac",
+	"ui_browse_explore_category_genre_popular" : "Populárne <b>{{genre}}</b> pozadia",
+	"ui_browse_explore_category_genre_recent" : "Nedávne <b>{{genre}}</b> pozadia",
+	"ui_browse_explore_category_genre_new" : "Nové <b>{{genre}}</b> pozadia",
+	"ui_browse_explore_category_genre_most_subscribed" : "Najviac odoberané <b>{{genre}}</b> pozadia",
+	"ui_browse_explore_category_creator_recent" : "Najnovšie pozadia <b>{{user}}</b>",
+	"ui_browse_explore_category_creator_popular" : "Pozadia <b>{{user}}</b>",
+	"ui_browse_explore_category_collection" : "Kolekcia <b>{{collectiontitle}}</b>",
+	"ui_browse_explore_category_keyword_popular" : "Populárne <b>{{keyword}}</b> pozadia",
+	"ui_browse_explore_category_keyword_recent" : "Nedávne <b>{{keyword}}</b> pozadia",
+	"ui_browse_explore_category_keyword_new" : "Nové <b>{{keyword}}</b> pozadia",
+	"ui_browse_explore_category_followed" : "Vyrobené sledovanými uživateľmi",
+	"ui_browse_explore_category_friends_created" : "Vyrobené priateľmi",
+	"ui_browse_explore_category_friends_favorites" : "Obľúbené pozadia priateľov",
+	"ui_browse_explore_category_user_favorites" : "Vaše obľúbené pozadia",
+	"ui_browse_explore_category_user_up_voted" : "Vaše ohlasované pozadia",
+	"ui_browse_explore_server_error" : "Nedá sa pripojiť k Wallpaper Engine serveru pre načítanie ďalšieho obsahu.",
+	"ui_browse_explore_create_query_modal_header_new" : "Vytvoriť nový dopyt",
+	"ui_browse_explore_create_query_modal_header_edit" : "Upraviť dopyt",
+	"ui_browse_explore_create_query_modal_category" : "Kategória",
+	"ui_browse_explore_create_query_modal_type" : "Triedenie",
+	"ui_browse_explore_create_query_modal_keyword" : "ˇKľúčové slovo",
+	"ui_browse_explore_create_query_modal_user_steam_id" : "Steam ID uživateľa",
+	"ui_browse_explore_create_query_modal_collection_id" : "ID Kolekcie",
+	"ui_browse_explore_create_query_modal_creator" : "Tvorca",
+	"ui_browse_explore_create_query_modal_collection" : "Kolekcia",
+	"ui_browse_explore_tooltip_favorite" : "Pridať medzi obľúbené",
+	"ui_browse_explore_tooltip_like" : "Like",
+	"ui_browse_explore_tooltip_dislike" : "Dislike",
+	"ui_browse_explore_tooltip_remove" : "Odstrániť",
+	"ui_browse_explore_prompt_to_vote" : "Hlasujte tu a pomôžte nám nájst pozadia ktoré sa vám páčia!",
+	
+	"ui_browse_download_pending" : "Pending",
+	
+	"ui_settings_plugins_status_loaded" : "Načítané",
+	"ui_settings_plugins_status_not_loaded" : "Nenačítané",
+	
+	"ui_settings_skin_halloween" : "Halloween",
+	"ui_settings_skin_obsidian" : "Obsidian",
+	"ui_settings_skin_mist" : "Hmla",
+	"ui_settings_skin_rose" : "Ružové",
+	"ui_settings_skin_moss" : "Mach",
+	"ui_settings_skin_rust" : "Hrdza",
+	"ui_settings_skin_metal" : "Kov",
+	"ui_settings_skin_space" : "Vesmír",
+	
+	"ui_editor_filemenu_show_selection_box" : "Zobraziť box výberu",
+	
+	"ui_workshop_tags_memes" : "Memes",
+	
+	"ui_editor_effect_shine_title" : "Svietenie",
+	"ui_editor_effect_shine_description" : "Aplikuje svietiaci efekt na svetlé časti obrázku s premenlivým počtom okrajov.",
+	
+	"ui_editor_properties_edges" : "Okraje",
+	
+	"ui_editor_properties_noise_smoothness" : "Hladkosť zrnenia",
+	
+	"ui_editor_properties_quality" : "Kvalita",
+
+	"ui_browse_explore_category_creator_genre_recent" : "Najnovšie pozadia <b>{{user}}</b> <b>{{genre}}</b>",
+	"ui_browse_explore_category_creator_genre_popular" : "Najpopulárnejšie pozadia <b>{{user}}</b> <b>{{genre}}</b>",
+	
+	"ui_browse_explore_category_keyword_most_subscribed" : "Najviac odoberané <b>{{keyword}}</b> pozadia",
+
+	"ui_browse_details_author_pending" : "< Pending >",
+	
+	"ui_browse_context_menu_icon_small" : "Malé ikony",
+	
+	"ui_browse_download_waiting" : "Čaká sa na Steam",
+	"ui_browse_download_missing_files" : "Chýbajúce súbory. Overte program na Steamu.",
+	
+	"ui_settings_show_tray_icon" : "Zobraziť lištovú ikonku:",
+	
+	"ui_editor_preset_magic_title" : "Mágia",
+	"ui_editor_preset_magic_description" : "Rôzne animácie magických efektov.",
+	"ui_editor_preset_interactive_title" : "Interaktívne",
+	"ui_editor_preset_interactive_description" : "Interaktívne častice ktoré sú ovplyvnené kurzorom.",
+	"ui_editor_preset_abstract_title" : "Abstrakt",
+	"ui_editor_preset_abstract_description" : "Všeobecné časticové efekty.",
+	
+	"ui_editor_particle_element_control_point_end" : "Kontrolný bod koniec",
+	"ui_editor_particle_element_control_point_start" : "Kontrolný bod začiatok",
+	"ui_editor_particle_element_fixed" : "Pevné",
+	"ui_editor_particle_element_mirror" : "Zrkadlové",
+	"ui_editor_particle_element_orientation" : "Orientácia",
+	"ui_editor_particle_element_repeat" : "Opakovať",
+	"ui_editor_particle_element_screen" : "Obrazovka",
+	"ui_editor_particle_element_upright" : "Zvislo",
+	"ui_editor_particle_element_segments" : "Segmenty",
+	"ui_editor_particle_element_subdivision" : "Pododdelenia",
+	"ui_editor_particle_element_infinite_axis" : "Nekonečná os",
+	"ui_editor_particle_element_initializer_mapsequencearoundcontrolpoint" : "Mapové sekvencie okolo kontrolného bodmu",
+	"ui_editor_particle_element_initializer_mapsequencebetweencontrolpoints" : "Mapové sekvencie medzi kontrolnými bodami",
+	"ui_editor_particle_element_renderer_rope" : "Lano",
+	"ui_editor_particle_element_renderer_ropetrail" : "Lanový pás"
 }

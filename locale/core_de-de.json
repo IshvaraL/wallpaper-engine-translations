@@ -11,6 +11,8 @@
 	"core_tray_faq" : "Hilfe && FAQ",
 	"core_tray_recent_wallpapers_clear" : "Liste leeren",
 	"core_tray_next_wallpaper" : "Nächstes Hintergrundbild",
+	"core_tray_mute" : "Stumm schalten",
+	"core_tray_unmute" : "Laut schalten",
 	
 	"core_balloon_info" : "Wallpaper Engine befindet sich nun im Tray. Klicke doppelt auf das Tray Icon, um das Hintergrundbild zu ändern.",
 	"core_balloon_desktop_window_error" : "Beim Erstellen des Hintergrundbildes trat ein unerwarteter Fehler auf.",
@@ -26,7 +28,6 @@
 	"core_msgbox_prompt_aero_win8" : "Wallpaper Engine kann nicht mit einem 'hohen Kontrast' Design ausgeführt werden. Design nun zurücksetzen?",
 	"core_msgbox_dwm_disabled" : "Desktop Komposition ist deaktiviert.",
 	"core_msgbox_aero_denied" : "Wallpaper Engine funktioniert ohne Aero nicht und wird nun beendet.",
-	"core_msgbox_aero_failure" : "Aero konnte nicht aktiviert werden. Wallpaper Engine wird nun beendet.",
 	"core_msgbox_aero_failure_no_support" : "Aero konnte nicht aktiviert werden. Es scheint eine Starter oder Basic Version von Windows 7 verwendet zu werden, welche die minimalen Systemanforderungen leider nicht erfüllt. Wallpaper Engine wird nun beendet.",
 	"core_msgbox_init_secondinstance_ask_quit" : "Wallpaper Engine läuft bereits und reagiert nicht.\n\nSoll die Anwendung neugestartet werden?",
 	"core_msgbox_init_secondinstance_failed" : "Neustart fehlgeschlagen, Fehlercode:",
